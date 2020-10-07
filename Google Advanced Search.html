@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Google Advanced Search</title>
+        <link rel="stylesheet" href="myStyle.css">
+    </head>
+    <body>
+        <div id = topBanner>
+            <img id=advancedLogo src="googlelogo_color_92x33dp.png" alt="Google">
+        </div>
+        <div id = bufferBanner>
+            <lable id=advancedSearchLabel>Advanced Search</lable>
+        </div>
+        <div id = AdvancedlinkWrapper>
+            <a href="Google Search.html">Google Search</a>
+        </div>
+        <form id = advancedFields, action="https://www.google.com/search">
+        <div id = advancedMainDiv>
+            <div id = miniTitle>
+                Find pages with...
+            </div>
+            <div id= examples>
+                <div id = ExamplesTitle>
+                    To do this in the search box.
+                </div>    
+            </div>
+
+            <div class = advancedField>
+                <div class = parameter>
+                    all these words:
+                </div>
+                <input id =AdvancedTextBox1 class = AdvancedTextBox type="text" name="as_q">
+                <div class = example>
+                    Type the important words: tri-colour rat terrier
+                </div>
+            </div>  
+
+           <div class = advancedField>
+            <div class = parameter>
+                this exact word or phrase:
+            </div>
+                <input id = AdvancedTextBox2 class = AdvancedTextBox type="text" name="as_epq">
+                <div class = example>
+                    Put exact words in quotes: "rat terrier"
+                </div>
+            </div>
+
+            <div class = advancedField>
+                <div class = parameter>
+                    any of these words:
+                </div>
+                <input id = AdvancedTextBox3 class = AdvancedTextBox type="text" name="as_oq">
+                <div class = example>
+                    Type OR between all the words you want: miniature OR standard
+                </div>
+            </div>
+
+            <div class = advancedField>
+                <div class = parameter>
+                    none of these words:
+                </div>
+                <input id = AdvancedTextBox4 class = AdvancedTextBox type="text" name="as_eq">
+                <div class = example>
+                    Put a minus sign just before words that you don't want: <br>
+                    -rodent, -"Jack Russell"
+                </div>
+            </div>
+            <input type = "hidden" name = "as_nlo" value = "">
+            <input type = "hidden" name = "as_nhi" value = "">
+            <input type = "hidden" name = "lr" value = "">
+            <input type = "hidden" name = "cr" value = "">
+            <input type = "hidden" name = "as_qdr" value = "">
+            <input type = "hidden" name = "as_sitesearch" value = "">
+            <input type = "hidden" name = "as_occt" value = "">
+            <input type = "hidden" name = "safe" value = "">
+            <input type = "hidden" name = "as_filetype_input" value = "">
+            <input type = "hidden" name = "sur" value = "">
+            <input id = advancedSubmit type="submit" value="Advanced Search", name: btnK>
+        </div>
+    </form>
+    </body>
+</html>
